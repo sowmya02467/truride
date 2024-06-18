@@ -1,0 +1,155 @@
+.container{
+    margin-right: 104px;
+    margin-left: 104px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.top{
+    color: black !important;
+    font-size: 30px;
+    text-align: center;
+
+ /* font-weight: 500; */
+}
+/* .top strong{
+    color: #FF2E00;
+} */
+
+
+
+.top  h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+strong{
+    color: #FF2E00;
+}
+.images{
+    height: 250px;
+    width: 180px;
+    margin-bottom: 30px;
+
+}
+.h5{
+   color: #100062;
+    font-family: lato;
+    font-style: bold;
+    font-size: 22px;
+   
+}
+
+p{
+ color: #063558;
+    font-family: lato;
+    font-style: bold;
+    font-size: 18px;
+}
+.top-one{
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.top-one p{
+    font-weight: bold;
+    color: #063558;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.one-left{
+    margin-top: 80px;
+    /* margin-right: 30px; */
+}
+
+
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.two-right{
+    margin-top: 100px ;
+ margin-left: 50px ;
+
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.three-left{
+    margin-top: 140px;
+    margin-right: 20px;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.four-right{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.five{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.five-left{
+    margin-top: 140px;
+    margin-right: 20px;
+}
+
+.six{
+    display: flex;
+    justify-content: space-between 50px;
+    margin-top: 20px;
+}
+
+.six-right{
+    margin-top: 140px;
+    margin-left: 60px;
+}
+
+
+
+.containers{
+   /* display: flex; */
+   color: white;
+   margin-top: 50px;
+
+
+}
+
+.white{
+   margin-left: 180px;
+   text-align: center;
+}
+
+.orange{
+        height: 222px ;
+    background-color: #FF2E00;
+    /* border-radius: 10%; */
+}
+.dtext p{
+    font-size: 12px;
+}

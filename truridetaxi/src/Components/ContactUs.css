@@ -1,0 +1,263 @@
+
+/* ContactUs.css */
+.bgImg {
+    /* background-color: rgb(190, 182, 182); */
+    background-image: url('C:\Users\shams\OneDrive\Desktop\TruRide\truride\public\Assets\world.jpeg');
+    /* margin-left: 144px;
+    margin-right:144px; */
+    height: 696px;
+    width: 100%;
+    align-items: center;
+    
+    
+    
+}
+
+
+.container-contact{
+    background-color:white;
+    font-family: "Lato",sans-serif;
+    padding-top: 70px;
+    justify-content: center;
+    margin-top: -45px;
+    
+}
+.content{
+   
+    /* padding-top: 50px; */
+    margin-top: 58px;
+}
+.submit-button{
+    align-items: center;
+    margin-left: 250px;
+}
+
+.txt-h1 p{
+color: white;
+text-align: left;
+margin-left: 208px;
+margin-top: 58x;
+font-size: 40px;
+font-weight: bold;
+}
+.txt-h3 p{
+    color: white;
+text-align: left;
+margin-left: 208px;
+font-size: 25px;
+font-weight: bold;
+
+}
+.msg{
+    /* display: flex; */
+    margin-left: 185px;
+    /* margin-right:144px; */
+    width: 1152px;
+    height: 710;
+   
+    
+}
+.sendMsg{
+    color:#100062 ;
+    float: left;
+    width: 692px;
+    height: 710px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+   
+}
+.details{
+    display: flex;
+}
+.contact{
+    color: white;
+    float: right;
+    background-color:#FF2E00 ;
+    width: 460px;
+    height: 710px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.location{
+    display: flex;
+}
+.locationImg{
+    width: 36px;
+    height: 35px;
+}
+.contact p{
+    color: white;
+}
+
+/* FormComponent.css */
+
+.form-container-right {
+    width: 500px;
+    height: 180px;
+    /* margin-top: 25px; */
+    /* padding: 40px; */
+    padding-left: 10px;
+    padding-top: 40px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    display:flex
+  }
+  .form-container-left {
+    width: 600px;
+    height: 180px;
+    margin: 0 auto;
+    /* padding: 40px; */
+    padding-left: 40px;
+    padding-top: 40px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    display:flex
+  }
+  
+  .input-container-right{
+    position: relative;
+    margin-bottom: 5px;
+    width: 263px;
+    /* margin-top: 15px; */
+    /* margin-left: 45px; */
+  }
+  
+ 
+   .form-label {
+    font-size: 16px;
+    color: #999;
+    text-align: left; 
+    display: block; 
+    margin-bottom: 0px;
+
+
+}
+
+
+.form-label-below {
+    font-size: 16px;
+    color: #999;
+    text-align: left; 
+    display: block; 
+    padding-bottom: 5px;
+    /* margin-left: 45px; */
+    
+   
+    
+    
+    }
+  .form-input {
+    width: 100%;
+    /* padding: 8px 0; */
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #100062 ;
+    outline: none;
+    background: transparent;
+    text-align: left;
+    margin-top: 30px;
+   
+
+    
+  }
+  .form-input-right{
+    width: 100%;
+    /* padding: 8px 0; */
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #100062 ;
+    outline: none;
+    background: transparent;
+    text-align: left;
+    margin-top: 30px;
+    /* margin-left: 45px;
+    */
+
+    
+  }
+  .form-input-left{
+    width: 100%;
+    /* padding: 8px 0; */
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #100062 ;
+    
+    outline: none;
+    background: transparent;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .form-input:focus {
+    border-bottom: 2px solid #100062;
+  }
+  
+  .submit-button {
+    width: 198px;
+    height:48px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF2E00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 80px;
+    
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+.location p{
+    text-align: left;
+    max-height: 170px;
+   
+  
+   
+   
+    /* font-weight: medium;  */
+    font-size: 1.3em;
+}
+.content-img img{
+    width: 1122px;
+    height:594px;
+}
+/* .content-img{
+    background-image: url('D:\TruRide\truride\public\assets\contactusBgImg.jpeg');
+} */
+.content-txt{
+     /* margin-left: 144px;
+    margin-right:144px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.input-container-left{
+    /* position: relative; */
+    margin-bottom: 5px;
+    width: 263px;
+    margin-left: 52px;
+}
+
+/* .form-container-below{
+    align-items: center;
+} */
+.input-container-below{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 41px;
+    width:600px;
+    margin-top: 80px;
+    margin-left: 52px;
+
+}
+.mailImg{
+    width: 36px;
+    height: 28px;
+}
+.heading{
+    display: flex;
+}

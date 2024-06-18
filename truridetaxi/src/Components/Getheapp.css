@@ -1,0 +1,58 @@
+/* GetTheApp.css */
+.custom-modal .modal-dialog {
+    max-width: 1152px; /* Adjust width as needed */
+    max-height: 827px; /* Adjust height as needed */
+    width: 1152px; /* Override the default width */
+    height: 827px; /* Override the default height */
+  }
+  
+  .custom-modal .modal-content {
+    height: 100%;
+  }
+  
+  #top {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #100062;
+    font: 40px Lato, sans-serif;
+  }
+  
+  #orange {
+    color: #ff2e00;
+    margin: 0px;
+    font-size: 40px;
+  }
+  
+  #blue {
+    color: white;
+    margin: 0px;
+  }
+  
+  .div-android, .div-apple {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .get-app-button {
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgba(255, 46, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+    height: 50px;
+    color: #ff2e00;
+    padding: 10px;
+    font: 16px Lato, sans-serif;
+    margin-right: 0px;
+  }
+  
+  .get-app-button:hover {
+    background-color: #ff2e00;
+    color: white;
+    font-weight: medium;
+  }
+  

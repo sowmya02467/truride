@@ -1,0 +1,319 @@
+/* footer css */
+
+.footer {
+    margin-top: 1000px;
+    margin-bottom: 0px;
+    position: relative; /* Ensures positioning context for the absolute child */
+  }
+  
+  .white {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .orange {
+    width: 80%;
+    height: 370px;
+    background-color: #FF2E00;
+    border-radius: 30px;
+    position: absolute; /* Positioned absolutely within the footer */
+    top: -185px; /* Move it up by half its height to create the overlap */
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure it is above the black section */
+    margin-left: 144px;
+    /* margin-right: 144px; */
+    margin-bottom: -150px;
+  }
+  
+  .footer-content p {
+    color: white;
+    font-family: Lato, sans-serif;
+  }
+  
+  .unlock {
+    color: white;
+    font-size: 25px;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    margin-top: 40px;
+  }
+  
+  .download {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .tru {
+    font-size: 20px;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    margin: 0%;
+  }
+  
+  .footer-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+  }
+  
+  .footer-img img {
+    width: 185px;
+    height: 53px;
+  }
+  
+  .black {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201F1F;
+    width: 100%;
+    height: 696px;
+    padding: 20px;
+    position: relative; /* For z-index layering context */
+    z-index: 0; /* Ensure it is below the orange section */
+  }
+  
+  .div-Fleft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: white;
+    margin-right: 20px;
+    margin-top: 300px;
+    margin-left: 144px;
+  }
+  
+  .Flogo {
+    width: 252px;
+    height: 91px;
+    /* margin-left: 10px; */
+    margin-bottom: 20px;
+  }
+  
+  .Dtext p {
+    margin: 0px;
+  }
+  
+  .Dmiddle, .Dright {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 300px;
+  }
+  
+  .Dmiddle ul, .Dright ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Dmiddle h3, .Dmiddle ul {
+    margin-left: 200px;
+  }
+  
+  .Dright h3, .Dright ul {
+    margin-left: 10px;
+  }
+  
+  .Dmiddle ul li, .Dright ul li {
+    padding: 5px 0;
+  }
+  
+  /* GetTheApp */
+  
+  
+  /* styles.css */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup-buttons img {
+    width: 150px;
+    margin: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* styles.css */
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup-buttons img {
+    width: 150px;
+    margin: 10px;
+  }
+  
+  .navbar-brand {
+    height: 100px;
+    width: 230px;
+    align-items: center;
+    margin-left: 144px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 60px;
+  }
+  
+  #navbarNav {
+    justify-content: space-between;
+    gap: 5px;
+    display: inline-flex;
+  }
+  
+  .container-fluid {
+    position: fixed;
+    padding-top: 0%;
+    margin-top: -10px;
+    height: 100px;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .nav-link {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .container-fluid {
+    box-shadow: 0px 2px 15px 0px rgba(117, 115, 115, 0.25);
+    background-color: #fff;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: 400;
+    justify-content: center;
+    padding: 30px 60px;
+  }
+  
+  .btn {
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgba(255, 46, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+    height: 50px;
+    color: #ff2e00;
+    padding: 10px;
+    font: 16px Lato, sans-serif;
+    margin-right: 144px;
+  }
+  
+  .btn:hover {
+    background-color: #ff2e00;
+    color: white;
+    font-weight: medium;
+  }
+  
+  .btn.active {
+    color: #ff2e00;
+  }
+  
+  .nav-link {
+    color: #605D5D; /* Default color */
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ff2e00; /* Hover color */
+  }
+  
+  .nav-link.selected {
+    color: #100062;
+  }
